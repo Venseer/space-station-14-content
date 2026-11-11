@@ -1,4 +1,4 @@
-[submodule "engine"]
-	path = engine
-	url = https://github.com/space-wizards/space-station-14.git
+[submodule "RobustToolbox"]
+	path = RobustToolbox
+	url = https://github.com/space-wizards/RobustToolbox.git
 	branch = master

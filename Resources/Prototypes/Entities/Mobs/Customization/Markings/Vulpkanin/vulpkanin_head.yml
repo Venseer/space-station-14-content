@@ -1,0 +1,63 @@
+# Head Markings (Head)
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpHeadBlaze
+  bodyPart: Head
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/head_markings.rsi
+      state: blaze
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpHeadMask
+  bodyPart: Head
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/head_markings.rsi
+      state: mask
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpPatch
+  bodyPart: Head
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/head_markings.rsi
+      state: patch
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpSlash
+  bodyPart: Head
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/head_markings.rsi
+      state: slash
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpStripes1
+  bodyPart: Head
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/head_markings.rsi
+      state: stripes_1
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpStripes2
+  bodyPart: Head
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/head_markings.rsi
+      state: stripes_2
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpVulpine
+  bodyPart: Head
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/head_markings.rsi
+      state: vulpine

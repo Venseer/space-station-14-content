@@ -1,0 +1,155 @@
+# Tail Markings
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpTailFennec
+  bodyPart: Tail
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: fennec
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: fennec-tip
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpTailFluffy
+  bodyPart: Tail
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: fluffy
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: fluffy-tip
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpTailHusky
+  bodyPart: Tail
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: husky
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: husky-inner
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: husky-outer
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpTailLong
+  bodyPart: Tail
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: long
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: long-tip
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpTailVulp
+  bodyPart: Tail
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: vulp
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: vulp-tip
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpTailVulpFade
+  bodyPart: Tail
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: vulp
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: vulp-fade
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpTailCoyote
+  bodyPart: Tail
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+  - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+    state: coyote
+
+# Animated
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpTailFennecAnimated
+  bodyPart: Tail
+  groupWhitelist: []
+  sprites:
+  - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+    state: fennec-wagging
+  - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+    state: fennec-wagging-tip
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpTailFluffyAnimated
+  bodyPart: Tail
+  groupWhitelist: []
+  sprites:
+  - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+    state: fluffy-wagging
+  - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+    state: fluffy-wagging-tip
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpTailHuskyAnimated
+  bodyPart: Tail
+  groupWhitelist: []
+  sprites:
+  - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+    state: husky-wagging
+  - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+    state: husky-wagging-inner
+  - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+    state: husky-wagging-outer
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpTailLongAnimated
+  bodyPart: Tail
+  groupWhitelist: []
+  sprites:
+  - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+    state: long-wagging
+  - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+    state: long-wagging-tip
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpTailVulpAnimated
+  bodyPart: Tail
+  groupWhitelist: []
+  sprites:
+  - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+    state: vulp-wagging
+  - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+    state: vulp-wagging-tip
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpTailVulpFadeAnimated
+  bodyPart: Tail
+  groupWhitelist: []
+  sprites:
+  - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+    state: vulp-wagging
+  - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+    state: vulp-wagging-fade
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpTailCoyoteAnimated
+  bodyPart: Tail
+  groupWhitelist: []
+  sprites:
+  - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+    state: coyote-wagging

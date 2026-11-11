@@ -1,8 +1,8 @@
-#!/usr/bin/env -i bash
+#!/bin/sh
 
 # cd to file containing script or something?
 BASEDIR=$(dirname "$0")
 echo "$BASEDIR"
 cd "$BASEDIR"
 
-./Godot --path ./SS14.Client.Godot
+exec ../Resources/Robust.Client "$@"

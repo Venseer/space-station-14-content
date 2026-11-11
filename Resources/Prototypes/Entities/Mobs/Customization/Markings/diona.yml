@@ -1,0 +1,407 @@
+- type: marking
+  id: DionaThornsHead
+  bodyPart: Head
+  groupWhitelist: [Diona]
+  sprites:
+  - sprite: Mobs/Customization/diona.rsi
+    state: thorns_head
+
+- type: marking
+  id: DionaThornsBody
+  bodyPart: Chest
+  groupWhitelist: [Diona]
+  sprites:
+  - sprite: Mobs/Customization/diona.rsi
+    state: thorns_body
+
+- type: marking
+  id: DionaFlowersHead
+  bodyPart: Head
+  groupWhitelist: [Diona]
+  sprites:
+  - sprite: Mobs/Customization/diona.rsi
+    state: flowers_head_vine
+    coloring:
+      type: !type:SimpleColoring
+        color: '#99794D'
+  - sprite: Mobs/Customization/diona.rsi
+    state: flowers_head_flowers
+    coloring:
+      type: !type:SimpleColoring
+        color: '#8B81CC'
+
+- type: marking
+  id: DionaFlowersBody
+  bodyPart: Chest
+  groupWhitelist: [Diona]
+  sprites:
+  - sprite: Mobs/Customization/diona.rsi
+    state: flowers_body_vine
+    coloring:
+      type: !type:SimpleColoring
+        color: '#99794D'
+  - sprite: Mobs/Customization/diona.rsi
+    state: flowers_body_flowers
+    coloring:
+      type: !type:SimpleColoring
+        color: '#8B81CC'
+
+- type: marking
+  id: DionaLeafCover
+  bodyPart: Chest
+  groupWhitelist: [Diona]
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+  sprites:
+  - sprite: Mobs/Customization/diona.rsi
+    state: leaf_cover
+
+- type: marking
+  id: DionaBloomHead
+  bodyPart: Head
+  groupWhitelist: [Diona]
+  sprites:
+  - sprite: Mobs/Customization/diona.rsi
+    state: bloom_flower
+    coloring:
+      type: !type:SimpleColoring
+        color: '#A64292'
+  - sprite: Mobs/Customization/diona.rsi
+    state: bloom_leaves
+    coloring:
+      type: !type:SimpleColoring
+        color: '#4B6B20'
+
+- type: marking
+  id: DionaBracketHead
+  bodyPart: Head
+  groupWhitelist: [Diona]
+  coloring:
+    default:
+      type: !type:SimpleColoring
+        color: '#F0D79E'
+  sprites:
+  - sprite: Mobs/Customization/diona.rsi
+    state: bracket
+
+- type: marking
+  id: DionaBrushHead
+  bodyPart: Head
+  groupWhitelist: [Diona]
+  sprites:
+  - sprite: Mobs/Customization/diona.rsi
+    state: brush_branches
+    coloring:
+      type: !type:SkinColoring {}
+  - sprite: Mobs/Customization/diona.rsi
+    state: brush_leaves
+    coloring:
+      type: !type:SimpleColoring
+        color: '#5F7039'
+
+- type: marking
+  id: DionaCornflowerHead
+  bodyPart: Head
+  groupWhitelist: [Diona]
+  sprites:
+  - sprite: Mobs/Customization/diona.rsi
+    state: cornflower_branches
+    coloring:
+      type: !type:SkinColoring {}
+  - sprite: Mobs/Customization/diona.rsi
+    state: cornflower_leaves
+    coloring:
+      type: !type:SimpleColoring
+        color: '#8A9A68'
+  - sprite: Mobs/Customization/diona.rsi
+    state: cornflower_petals
+    coloring:
+      type: !type:SimpleColoring
+        color: '#82D7F6'
+  - sprite: Mobs/Customization/diona.rsi
+    state: cornflower_pollen
+    coloring:
+      type: !type:SimpleColoring
+        color: '#E7F682'
+
+- type: marking
+  id: DionaFicusHead
+  bodyPart: Head
+  groupWhitelist: [Diona]
+  coloring:
+    default:
+      type: !type:SimpleColoring
+        color: '#649C2C'
+  sprites:
+  - sprite: Mobs/Customization/diona.rsi
+    state: ficus
+
+- type: marking
+  id: DionaGarlandHead
+  bodyPart: Head
+  groupWhitelist: [Diona]
+  sprites:
+  - sprite: Mobs/Customization/diona.rsi
+    state: garland_leaves
+    coloring:
+      type: !type:SimpleColoring
+        color: '#458C26'
+  - sprite: Mobs/Customization/diona.rsi
+    state: garland_flowers
+    coloring:
+      type: !type:SimpleColoring
+        color: '#FFFFFF'
+
+- type: marking
+  id: DionaKingHead
+  bodyPart: Head
+  groupWhitelist: [Diona]
+  sprites:
+  - sprite: Mobs/Customization/diona.rsi
+    state: king_flower
+    coloring:
+      type: !type:SimpleColoring
+        color: '#A69724'
+  - sprite: Mobs/Customization/diona.rsi
+    state: king_leaves
+    coloring:
+      type: !type:SimpleColoring
+        color: '#4B6B20'
+
+- type: marking
+  id: DionaLaurelHead
+  bodyPart: Head
+  groupWhitelist: [Diona]
+  coloring:
+    default:
+      type: !type:SimpleColoring
+        color: '#81994E'
+  sprites:
+  - sprite: Mobs/Customization/diona.rsi
+    state: laurel
+
+- type: marking
+  id: DionaLeafyHeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [Diona]
+  coloring:
+    default:
+      type: !type:SimpleColoring
+        color: '#819C4A'
+  sprites:
+  - sprite: Mobs/Customization/diona.rsi
+    state: leafy
+
+- type: marking
+  id: DionaLotusHead
+  bodyPart: Head
+  groupWhitelist: [Diona]
+  sprites:
+  - sprite: Mobs/Customization/diona.rsi
+    state: lotus_flower
+    coloring:
+      type: !type:SimpleColoring
+        color: '#2A54A8'
+  - sprite: Mobs/Customization/diona.rsi
+    state: lotus_leaves
+    coloring:
+      type: !type:SimpleColoring
+        color: '#4B6B20'
+
+- type: marking
+  id: DionaMeadowHeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [Diona]
+  coloring:
+    default:
+      type: !type:SimpleColoring
+        color: '#849956'
+  sprites:
+  - sprite: Mobs/Customization/diona.rsi
+    state: meadow
+
+- type: marking
+  id: DionaOakHead
+  bodyPart: Head
+  groupWhitelist: [Diona]
+  sprites:
+  - sprite: Mobs/Customization/diona.rsi
+    state: oak
+
+- type: marking
+  id: DionaPalmHead
+  bodyPart: Head
+  groupWhitelist: [Diona]
+  coloring:
+    default:
+      type: !type:SimpleColoring
+        color: '#6C852D'
+  sprites:
+  - sprite: Mobs/Customization/diona.rsi
+    state: palm
+
+- type: marking
+  id: DionaRootHead
+  bodyPart: Head
+  groupWhitelist: [Diona]
+  sprites:
+  - sprite: Mobs/Customization/diona.rsi
+    state: root
+
+- type: marking
+  id: DionaRoseHead
+  bodyPart: Head
+  groupWhitelist: [Diona]
+  sprites:
+  - sprite: Mobs/Customization/diona.rsi
+    state: rose_flower
+    coloring:
+      type: !type:SimpleColoring
+        color: '#B3273C'
+  - sprite: Mobs/Customization/diona.rsi
+    state: rose_leaves
+    coloring:
+      type: !type:SimpleColoring
+        color: '#4B6B20'
+
+- type: marking
+  id: DionaRoseyHead
+  bodyPart: Head
+  groupWhitelist: [Diona]
+  sprites:
+  - sprite: Mobs/Customization/diona.rsi
+    state: rosey_flowers
+    coloring:
+      type: !type:SimpleColoring
+        color: '#B51C3D'
+  - sprite: Mobs/Customization/diona.rsi
+    state: rosey_leaves
+    coloring:
+      type: !type:SimpleColoring
+        color: '#8A9A68'
+
+- type: marking
+  id: DionaShrubHeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [Diona]
+  coloring:
+    default:
+      type: !type:SimpleColoring
+        color: '#7D562C'
+  sprites:
+  - sprite: Mobs/Customization/diona.rsi
+    state: shrub
+
+- type: marking
+  id: DionaSpinnerHeadSide
+  bodyPart: HeadSide
+  groupWhitelist: [Diona]
+  sprites:
+  - sprite: Mobs/Customization/diona.rsi
+    state: spinner_branches
+    coloring:
+      type: !type:SkinColoring {}
+  - sprite: Mobs/Customization/diona.rsi
+    state: spinner_leaves
+    coloring:
+      type: !type:SimpleColoring
+        color: '#5F7039'
+  - sprite: Mobs/Customization/diona.rsi
+    state: spinner_eyes
+    coloring:
+      type: !type:EyeColoring {}
+
+- type: marking
+  id: DionaSproutHeadSide
+  bodyPart: HeadSide
+  groupWhitelist: [Diona]
+  sprites:
+  - sprite: Mobs/Customization/diona.rsi
+    state: sprout_leaf
+    coloring:
+      type: !type:SimpleColoring
+        color: '#AAC176'
+  - sprite: Mobs/Customization/diona.rsi
+    state: sprout_eyes
+    coloring:
+      type: !type:EyeColoring {}
+
+- type: marking
+  id: DionaVineHeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [Diona]
+  sprites:
+  - sprite: Mobs/Customization/diona.rsi
+    state: vine_branches
+    coloring:
+      type: !type:SkinColoring {}
+  - sprite: Mobs/Customization/diona.rsi
+    state: vine_vines
+    coloring:
+      type: !type:SimpleColoring
+        color: '#819C4A'
+
+- type: marking
+  id: DionaVinelHead
+  bodyPart: Head
+  groupWhitelist: [Diona]
+  sprites:
+  - sprite: Mobs/Customization/diona.rsi
+    state: vinel_vines
+    coloring:
+      type: !type:SimpleColoring
+        color: '#4D2F11'
+  - sprite: Mobs/Customization/diona.rsi
+    state: vinel_leaves
+    coloring:
+      type: !type:SimpleColoring
+        color: '#264D12'
+
+- type: marking
+  id: DionaVinesHead
+  bodyPart: Head
+  groupWhitelist: [Diona]
+  sprites:
+  - sprite: Mobs/Customization/diona.rsi
+    state: vines_vines
+    coloring:
+      type: !type:SimpleColoring
+        color: '#4D2F11'
+  - sprite: Mobs/Customization/diona.rsi
+    state: vines_leaves
+    coloring:
+      type: !type:SimpleColoring
+        color: '#264D12'
+
+- type: marking
+  id: DionaWildflowerHead
+  bodyPart: Head
+  groupWhitelist: [Diona]
+  sprites:
+  - sprite: Mobs/Customization/diona.rsi
+    state: wildflower_flowers
+    coloring:
+      type: !type:SimpleColoring
+        color: '#FFFFFF'
+  - sprite: Mobs/Customization/diona.rsi
+    state: wildflower_leaves
+    coloring:
+      type: !type:SimpleColoring
+        color: '#BFE477'
+  - sprite: Mobs/Customization/diona.rsi
+    state: wildflower_branches
+    coloring:
+      type: !type:SkinColoring {}
+
+- type: marking
+  id: DionaVineOverlay
+  bodyPart: Overlay
+  groupWhitelist: [Diona]
+  coloring:
+    default:
+      type: !type:SimpleColoring
+        color: '#5f7039'
+  sprites:
+  - sprite: Mobs/Customization/diona.rsi
+    state: overlay

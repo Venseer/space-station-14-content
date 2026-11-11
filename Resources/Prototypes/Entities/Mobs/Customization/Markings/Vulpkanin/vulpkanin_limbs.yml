@@ -1,0 +1,286 @@
+- type: marking
+  parent: [ VulpBaseMarking ] # No clamping, you can have nail (claw?) polish or something
+  id: VulpClawsHandLeft
+  bodyPart: LHand
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: claws_l_hand
+
+- type: marking
+  parent: [ VulpBaseMarking ] # No clamping, you can have nail (claw?) polish or something
+  id: VulpClawsHandRight
+  bodyPart: RHand
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: claws_r_hand
+
+- type: marking
+  parent: [ VulpBaseMarking ] # No clamping, you can have nail (claw?) polish or something
+  id: VulpClawsFootLeft
+  bodyPart: LFoot
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: claws_l_foot
+
+- type: marking
+  parent: [ VulpBaseMarking ] # No clamping, you can have nail (claw?) polish or something
+  id: VulpClawsFootRight
+  bodyPart: RFoot
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: claws_r_foot
+
+# Crest
+
+## Left Side
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpPointsCrestLegLeft
+  bodyPart: LLeg
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: crest-leg-l
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpPointsCrestArmLeft
+  bodyPart: LArm
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: crest-arm-l
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpPointsCrestFootLeft
+  bodyPart: LFoot
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: crest-foot-l
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpPointsCrestHandLeft
+  bodyPart: LHand
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: crest-hand-l
+
+## Right Side
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpPointsCrestLegRight
+  bodyPart: RLeg
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: crest-leg-r
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpPointsCrestArmRight
+  bodyPart: RArm
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: crest-arm-r
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpPointsCrestFootRight
+  bodyPart: RFoot
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: crest-foot-r
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpPointsCrestHandRight
+  bodyPart: RHand
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: crest-hand-r
+
+# Fade
+
+## Left Side
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpPointsFadeLegLeft
+  bodyPart: LLeg
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: points_fade-leg-l
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpPointsFadeArmLeft
+  bodyPart: LArm
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: points_fade-arm-l
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpPointsFadeFootLeft
+  bodyPart: LFoot
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: points_fade-foot-l
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpPointsFadeHandLeft
+  bodyPart: LHand
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: points_fade-hand-l
+
+## Right Side
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpPointsFadeLegRight
+  bodyPart: RLeg
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: points_fade-leg-r
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpPointsFadeArmRight
+  bodyPart: RArm
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: points_fade-arm-r
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpPointsFadeFootRight
+  bodyPart: RFoot
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: points_fade-foot-r
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpPointsFadeHandRight
+  bodyPart: RHand
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: points_fade-hand-r
+
+# Sharp
+
+## Left Side
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpPointsSharpLegLeft
+  bodyPart: LLeg
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: points_sharp-leg-l
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpPointsSharpArmLeft
+  bodyPart: LArm
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: points_sharp-arm-l
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpPointsSharpLongArmLeft
+  bodyPart: LArm
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: points_sharp-arm-long-l
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpPointsSharpFootLeft
+  bodyPart: LFoot
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: points_sharp-foot-l
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpPointsSharpHandLeft
+  bodyPart: LHand
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: points_sharp-hand-l
+
+## Right Side
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpPointsSharpLegRight
+  bodyPart: RLeg
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: points_sharp-leg-r
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpPointsSharpArmRight
+  bodyPart: RArm
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: points_sharp-arm-r
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpPointsSharpLongArmRight
+  bodyPart: RArm
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: points_sharp-arm-long-r
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpPointsSharpFootRight
+  bodyPart: RFoot
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: points_sharp-foot-r
+
+- type: marking
+  parent: [ VulpBaseMarkingClamped ]
+  id: VulpPointsSharpHandRight
+  bodyPart: RHand
+  groupWhitelist: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: points_sharp-hand-r

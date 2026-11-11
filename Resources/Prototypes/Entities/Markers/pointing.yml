@@ -1,0 +1,15 @@
+- type: entity
+  name: pointing arrow
+  id: PointingArrow
+  save: false
+  components:
+  - type: Tag
+    tags:
+    - HideContextMenu
+  - type: Sprite
+    sprite: Interface/Misc/pointing.rsi
+    state: pointing
+    drawdepth: Overlays
+    noRot: true
+  - type: PointingArrow
+  - type: Appearance
